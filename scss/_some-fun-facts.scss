@@ -1,0 +1,39 @@
+.some-fun-facts {
+    background: url(../../images/bg-article.jpg) no-repeat 50% 0;
+    background-size: cover;
+    min-height: 600px;
+    width: 100%;
+    .statistics {
+        margin-top: 25px;
+        font-size: 38px;
+        [class*="icon-"] {
+            border: 2px solid rgba(255, 255, 255, .4);
+            border-radius: 50%;
+            padding: 42px 45px;
+            display: inline-block;
+            margin-bottom: 34px;
+        }
+        .outer {
+            height: 126px;
+            min-width: 180px;
+            .inner {
+                position: relative;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                p {
+                    font-weight: 600;
+                    font-size: 60px;
+                    line-height: 45px;
+                    color: #fff;
+                    span {
+                        display: block;
+                        font-size: 18px;
+                        font-weight: 400;
+                        text-transform: uppercase;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,76 @@
+.lets-discuss {
+    .info {
+        p {
+            font-size: 22px;
+            line-height: 32px;
+            color: $color-blue;
+            span {
+                font-size: 13px;
+                line-height: 24px;
+                color: #6a737b;
+                display: block;
+                margin-top: 30px;
+                a {
+                    text-decoration: none;
+                    color: inherit;
+                }
+            }
+        }
+    }
+    .mail-form {
+        form {
+            span {
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 32px;
+                display: block;
+                margin-bottom: 28px;
+            }
+        }
+        input,
+        textarea {
+            width: 100%;
+            margin-bottom: 10px;
+            // border-radius: 3px;
+            // border: solid 1px #ccc;
+            border: none;
+            border-bottom: 1px solid #ccc;
+            outline: none;
+            padding: 4px 7px;
+            font-family: sans-serif;
+        }
+        #name,
+        #eml {
+            width: 49%;
+        }
+        #eml {
+            float: right;
+            /*   margin-right: 2px; */
+        }
+        button {
+            width: 120px;
+            float: right;
+            margin-left: 15px;
+            border-radius: 3px;
+            border: solid 1px #ccc;
+            padding: 4px 7px;
+        }
+        button:hover {
+            background-color: rgb(79, 186, 238);
+        }
+    }
+    .social {
+        .icon-behance::before,
+        .icon-twitter::before,
+        .icon-dribble::before,
+        .icon-forrst-icon::before,
+        .icon-google-plus::before {
+            color: #062033;
+            opacity: 20%;
+            font-size: 26px;
+        }
+        [class^='icon-']:hover {
+            color: #000;
+        }
+    }
+}

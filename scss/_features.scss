@@ -1,0 +1,33 @@
+.features {
+    background: $bg-content;
+    .text-article {
+        position: relative;
+        padding-left: 70px;
+        // padding-right: 8px;
+        p {
+            font-size: 13px;
+            line-height: 20px;
+            color: #062033;
+            opacity: 70%;
+        }
+        .icon-branding-icon::before,
+        .icon-development-icon:before,
+        .icon-consulting-icon:before {
+            color: $color-turquoise;
+            position: absolute;
+            display: flex;
+            top: 67px;
+            left: 13px;
+            font-size: 20px;
+            border: 1px solid $color-turquoise;
+            border-radius: 50%;
+            padding: 9px 12px;
+        }
+        .icon-development-icon:before,
+        .icon-consulting-icon:before {
+            left: 17px;
+            font-size: 16px;
+            padding: 10px 11px;
+        }
+    }
+}
