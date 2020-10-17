@@ -24,5 +24,47 @@
         img {
             width: 100%;
         }
+        .thumb {
+            position: relative;
+            .item {
+                display: none;
+                .icon-eye-icon:before {
+                    position: absolute;
+                    left: 45%;
+                    top: 104px;
+                    font-size: 18px;
+                    color: #000;
+                    border: 1px solid #000;
+                    border-radius: 50%;
+                    padding: 10px;
+                }
+                p {
+                    position: absolute;
+                    // left: 25%;
+                    top: 50%;
+                    transform: translate(50%, 50%);
+                    font-size: 18px;
+                    font-weight: 700;
+                    text-align: center;
+                    color: #000;
+                    span {
+                        display: block;
+                        font-size: 14px;
+                        font-weight: 400;
+                    }
+                }
+            }
+            &:hover {
+                p {
+                    background: #fff;
+                    border-radius: 15px;
+                    display: inline-block;
+                }
+                .item {
+                    display: block;
+                }
+                opacity: .95;
+            }
+        }
     }
 }

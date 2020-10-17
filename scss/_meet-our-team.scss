@@ -6,25 +6,21 @@
             .links {
                 display: inline-flex;
             }
-            // img {
-            //     color: rgba(14, 180, 147, .95);
-            // }
             .add-info {
+                img {
+                    background: rgba(14, 180, 147, .95);
+                    color: rgba(14, 180, 147, .95);
+                }
                 h4 {
                     color: $color-turquoise;
                     span {
                         color: $color-blue;
                         opacity: 56%;
                     }
-                    .worker {
-                        background: #fff;
-                    }
                 }
             }
         }
         .add-info {
-            // @media (max-width: 767.98px) {
-            // }
             h4 {
                 // @media (max-width: 1199.98px) {
                 // }
@@ -50,6 +46,10 @@
                 }
             }
             img {
+                &:hover {
+                    background: rgba(14, 180, 147, .95);
+                    color: rgba(14, 180, 147, .95);
+                }
                 @media (max-width: 1199.98px) {
                     width: 100%;
                 }
@@ -65,19 +65,9 @@
             }
         }
         .links {
-            display: flex;
             position: absolute;
             left: calc(50% - 57px);
             bottom: 100px;
-            // @media (max-width: 1199.98px) {
-            //    
-            // }
-            // @media (max-width: 767.98px) {
-            //    
-            // }
-            // @media (max-width: 575.98px) {
-            //     
-            // }
             display: none;
             .item {
                 display: flex;
